@@ -28,6 +28,8 @@ while True:
             extrato += f"+{deposito:.2f}\n"
             saldo += deposito
             print(f"Saldo: {saldo:.2f}")
+        else:
+            print("Insira um Valor Valido!")
     elif opcao == "s":
         if LIMITE_SAQUES == 0:
             print("Limite de saques diarios atingido.")
